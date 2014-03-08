@@ -21,7 +21,7 @@ def check(file_path):
 	check(path)
 """
 #TODO : Use argparse module to provide additional functionality like
-python makelink.py -p  : allow user to paste the code directly in terminal, as the code we may not have the code saved on disk.
+python makelink.py -p  : allow user to paste the code directly into terminal, as we may not always have the code saved on disk.
 python makelink.py -b  : automatically open the response link in browser
 
 """
