@@ -19,9 +19,15 @@ def check(file_path):
 		global path
 	path=raw_input('Enter File name with path - ').strip()
 	check(path)
+"""
+#TODO : Use argparse module to provide additional functionality like
+python makelink.py -p  : allow user to paste the code directly in terminal, as the code we may not have the code saved on disk.
+python makelink.py -b  : automatically open the response link in browser
 
+"""
 try:
-	path=sys.argv[1:][0].strip()	# to retrieve path from command line arguments
+	path=sys.argv[1:][0].strip() # to retrieve path from command line arguments
+	check(path)	                
 except:
 	check('')						# if a user forgets to enter path in command line
 
